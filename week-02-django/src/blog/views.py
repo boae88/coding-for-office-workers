@@ -6,4 +6,4 @@ from django.shortcuts import render
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the blog index.")
+    return HttpResponse("Hello, world. You're at the the index.")
