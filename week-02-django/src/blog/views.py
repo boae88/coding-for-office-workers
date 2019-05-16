@@ -11,7 +11,7 @@ def index(request):
 
     # name = "boae"
     # return render(request, "index.html", {"name" : name})
-    # article_list = Article.objects.all()
+    article_list = Article.objects.all()
     # Article.objects.create(
     #     title="hello",
     #     contents="this is test",
